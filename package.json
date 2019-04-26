@@ -1,0 +1,35 @@
+{
+  "name": "sam",
+  "author": "b123400",
+  "version": "1.0.0",
+  "keywords": [
+    "pebble-app"
+  ],
+  "private": false,
+  "dependencies": {
+    "pebble-clay": "^1.0.4"
+  },
+  "pebble": {
+    "displayName": "sam",
+    "uuid": "4c0b3bec-91c1-40f1-9bf7-6edf5858d7e1",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk",
+      "diorite"
+    ],
+    "watchapp": {
+      "watchface": true
+    },
+    "messageKeys": [
+      "background_color",
+      "hour_color",
+      "min_color"
+    ],
+    "resources": {
+      "media": []
+    }
+  }
+}

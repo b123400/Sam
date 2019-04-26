@@ -1,0 +1,36 @@
+[
+  {
+    "type": "section",
+    "items": [
+      {
+        "type": "heading",
+        "defaultValue": "🤘🤘🤘🤘"
+      },
+      {
+        "type": "color",
+        "messageKey": "background_color",
+        "defaultValue": "FFFFFF",
+        "label": "Background Color",
+        "allowGray": true
+      },
+      {
+        "type": "color",
+        "messageKey": "hour_color",
+        "defaultValue": "ff1111",
+        "label": "Hour Color",
+        "allowGray": true
+      },
+      {
+        "type": "color",
+        "messageKey": "min_color",
+        "defaultValue": "1111ff",
+        "label": "Minutes Color",
+        "allowGray": true
+      },
+      {
+        "type": "submit",
+        "defaultValue": "Save"
+      }
+    ]
+  }
+]
